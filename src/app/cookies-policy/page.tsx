@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "Cookies and tracking technologies policy for muhammadfiaz.com.",
   alternates: { canonical: "/cookies-policy" },
   openGraph: {
-    title: "Cookies Policy | Muhammad Fiaz",
+    title: "Cookies Policy | Tawhid Shaikh",
     description:
       "How cookies and analytics technologies are used on muhammadfiaz.com.",
     url: `${siteUrl}/cookies-policy`,
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cookies Policy | Muhammad Fiaz",
+    title: "Cookies Policy | Tawhid Shaikh",
     description:
       "How cookies and analytics technologies are used on muhammadfiaz.com.",
     images: [cookiesPolicyOgImageUrl],

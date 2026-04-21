@@ -198,7 +198,7 @@ export function HomePageClient({
                 </span>
                 <span className="mt-1 block text-[clamp(1.05rem,8vw,3rem)] sm:text-[clamp(1.8rem,5.6vw,4.4rem)]">
                   <span className="retro-curve-underline">
-                    <HyperNameReveal text="Muhammad Fiaz." />
+                    <HyperNameReveal text="Tawhid Shaikh." />
                   </span>
                 </span>
               </h1>
@@ -229,8 +229,8 @@ export function HomePageClient({
             <div className="order-1 mx-auto w-full max-w-56 border-4 border-black bg-primary p-2 shadow-retro-md sm:max-w-xs sm:p-3 md:order-2 md:max-w-sm">
               <div className="border-4 border-black bg-card p-0">
                 <Image
-                  src="https://avatars.githubusercontent.com/u/75434191?v=4"
-                  alt="Muhammad Fiaz"
+                  src="/myself.png"
+                  alt="Tawhid Shaikh"
                   width={384}
                   height={384}
                   loading="eager"

@@ -185,7 +185,7 @@ export function HackatimeBento({ stats }: { stats: HackatimePayload | null }) {
         >
           <Image
             src="https://heatmap.shymike.dev/?id=30609&timezone=UTC"
-            alt="Muhammad Fiaz Hack Club streak heatmap"
+            alt="Tawhid Shaikh Hack Club streak heatmap"
             width={1200}
             height={260}
             className="h-auto w-full border-2 border-black bg-card"

@@ -7,7 +7,7 @@ export const contentType = ogContentType;
 export default function Image() {
   return buildTwitterImage({
     eyebrow: "404",
-    title: "Muhammad Fiaz",
+    title: "Tawhid Shaikh",
     subtitle: "This Route Is Not Available",
     accent: "accent",
   });

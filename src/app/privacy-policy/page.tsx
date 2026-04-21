@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Privacy Policy for muhammadfiaz.com services and communications.",
   alternates: { canonical: "/privacy-policy" },
   openGraph: {
-    title: "Privacy Policy | Muhammad Fiaz",
+    title: "Privacy Policy | Tawhid Shaikh",
     description:
       "How data is collected, used, and protected on muhammadfiaz.com.",
     url: `${siteUrl}/privacy-policy`,
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Privacy Policy | Muhammad Fiaz",
+    title: "Privacy Policy | Tawhid Shaikh",
     description:
       "How data is collected, used, and protected on muhammadfiaz.com.",
     images: [privacyPolicyOgImageUrl],
@@ -30,7 +30,7 @@ export default function PrivacyPolicyPage() {
   return (
     <PolicyPageClient
       pageTitle="Privacy Policy"
-      intro="This Privacy Policy explains how Muhammad Fiaz collects, uses, and protects information when you use muhammadfiaz.com and related services."
+      intro="This Privacy Policy explains how Tawhid Shaikh collects, uses, and protects information when you use muhammadfiaz.com and related services."
       sections={[
         {
           title: "Information Collected",

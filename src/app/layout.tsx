@@ -74,18 +74,18 @@ const ReleaseUpdateNotice = dynamic(
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  applicationName: "Muhammad Fiaz Portfolio",
+  applicationName: "Tawhid Shaikh Portfolio",
   title: {
-    default: "Muhammad Fiaz | Founder, Entrepreneur, Full Stack Developer",
-    template: "%s | Muhammad Fiaz",
+    default: "Tawhid Shaikh | Founder, Entrepreneur, Full Stack Developer",
+    template: "%s | Tawhid Shaikh",
   },
   description:
-    "High-converting personal portfolio of Muhammad Fiaz. Founder, Entrepreneur, Full Stack Developer, Freelancer and Full-Time Open-Sourcerer.",
+    "High-converting personal portfolio of Tawhid Shaikh. Founder, Entrepreneur, Full Stack Developer, Freelancer and Full-Time Open-Sourcerer.",
   alternates: {
     canonical: "/",
   },
   keywords: [
-    "Muhammad Fiaz",
+    "Tawhid Shaikh",
     "muhammadfiaz.com",
     "Full Stack Developer",
     "Next.js developer",
@@ -97,8 +97,8 @@ export const metadata: Metadata = {
     "Portfolio",
     "India",
   ],
-  creator: "Muhammad Fiaz",
-  publisher: "Muhammad Fiaz",
+  creator: "Tawhid Shaikh",
+  publisher: "Tawhid Shaikh",
   robots: {
     index: true,
     follow: true,
@@ -111,11 +111,11 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Muhammad Fiaz | Founder, Entrepreneur, Full Stack Developer",
+    title: "Tawhid Shaikh | Founder, Entrepreneur, Full Stack Developer",
     description:
       "25+ happy clients worldwide, 99.9% delivery, and modern full stack products built with speed.",
     url: siteUrl,
-    siteName: "Muhammad Fiaz",
+    siteName: "Tawhid Shaikh",
     type: "website",
     locale: "en_US",
     images: [
@@ -123,13 +123,13 @@ export const metadata: Metadata = {
         url: ogImageUrl,
         width: 1200,
         height: 630,
-        alt: "Muhammad Fiaz Portfolio v5",
+        alt: "Tawhid Shaikh Portfolio v5",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Muhammad Fiaz",
+    title: "Tawhid Shaikh",
     description:
       "Founder, Entrepreneur, Full Stack Developer, Freelancer and Full-Time Open-Sourcerer.",
     images: [ogImageUrl],
@@ -168,7 +168,7 @@ export default function RootLayout({
   const personJsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Muhammad Fiaz",
+    name: "Tawhid Shaikh",
     url: siteUrl,
     jobTitle: "Founder, Entrepreneur, Full Stack Developer",
     sameAs: [
@@ -190,12 +190,12 @@ export default function RootLayout({
   const websiteJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Muhammad Fiaz",
+    name: "Tawhid Shaikh",
     url: siteUrl,
     inLanguage: "en",
     publisher: {
       "@type": "Person",
-      name: "Muhammad Fiaz",
+      name: "Tawhid Shaikh",
       url: siteUrl,
     },
     sameAs: [linkHubUrl, fiazDevUrl, sponsorUrl, donationUrl],
@@ -213,14 +213,14 @@ export default function RootLayout({
     url: fiazDevUrl,
     founder: {
       "@type": "Person",
-      name: "Muhammad Fiaz",
+      name: "Tawhid Shaikh",
       url: siteUrl,
     },
     sameAs: [githubUrl, linkedinUrl, xUrl, linkHubUrl],
     sponsor: {
       "@type": "Offer",
       url: sponsorUrl,
-      name: "Sponsor Muhammad Fiaz on GitHub",
+      name: "Sponsor Tawhid Shaikh on GitHub",
     },
     funding: donationUrl,
   };
@@ -229,7 +229,7 @@ export default function RootLayout({
     <div className="fixed inset-0 z-80 flex items-center justify-center bg-background px-4">
       <div className="w-full max-w-lg border-4 border-black bg-card p-4 shadow-retro-lg sm:p-6">
         <p className="font-pixel text-2xl uppercase text-foreground sm:text-3xl">
-          Muhammad Fiaz
+          Tawhid Shaikh
         </p>
         <p className="mt-2 text-sm font-black uppercase text-muted-foreground sm:text-base">
           Loading workspace<span className="animate-dots" />

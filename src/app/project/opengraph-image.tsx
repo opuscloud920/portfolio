@@ -1,6 +1,6 @@
 import { buildOgImage, ogContentType, ogSize } from "@/lib/og-image";
 
-export const alt = "Projects by Muhammad Fiaz";
+export const alt = "Projects by Tawhid Shaikh";
 export const size = ogSize;
 export const contentType = ogContentType;
 

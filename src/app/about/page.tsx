@@ -7,18 +7,18 @@ const aboutOgImageUrl = `${siteUrl}/about/opengraph-image`;
 
 export const metadata: Metadata = {
   title: "About",
-  description: "The journey, roles, and milestones of Muhammad Fiaz.",
+  description: "The journey, roles, and milestones of Tawhid Shaikh.",
   alternates: {
     canonical: "/about",
   },
   keywords: [
-    "about muhammad fiaz",
+    "about Tawhid Shaikh",
     "developer journey",
     "open source maintainer",
     "full stack experience",
   ],
   openGraph: {
-    title: "About Muhammad Fiaz",
+    title: "About Tawhid Shaikh",
     description:
       "Journey, milestones, and experience across full stack, open source, and AI delivery.",
     url: `${siteUrl}/about`,
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
         url: aboutOgImageUrl,
         width: 1200,
         height: 630,
-        alt: "About Muhammad Fiaz",
+        alt: "About Tawhid Shaikh",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Muhammad Fiaz",
+    title: "About Tawhid Shaikh",
     description:
       "Journey, milestones, and experience across full stack, open source, and AI delivery.",
     images: [aboutOgImageUrl],
@@ -172,11 +172,11 @@ export default function AboutPage() {
   const aboutJsonLd = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    name: "About Muhammad Fiaz",
+    name: "About Tawhid Shaikh",
     url: `${siteUrl}/about`,
     mainEntity: {
       "@type": "Person",
-      name: "Muhammad Fiaz",
+      name: "Tawhid Shaikh",
       url: siteUrl,
       jobTitle: "Founder, Entrepreneur, Full Stack Developer",
     },

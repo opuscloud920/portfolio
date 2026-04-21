@@ -71,7 +71,7 @@ export function Footer() {
             className="inline-flex border-4 border-black bg-[#111827] px-3 py-2 text-xs font-black uppercase text-white shadow-retro-sm sm:text-sm"
             data-footer-policy
           >
-            Copyright {currentYear} Muhammad Fiaz
+            Copyright {currentYear} Tawhid Shaikh
           </p>
         </div>
 

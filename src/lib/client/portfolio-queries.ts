@@ -75,7 +75,7 @@ async function submitContactForm(
     ].join("\n"),
   );
   formData.append("subject", `Portfolio Inquiry: ${values.businessInquiry}`);
-  formData.append("from_name", "Muhammad Fiaz Portfolio");
+  formData.append("from_name", "Tawhid Shaikh Portfolio");
 
   const response = await fetch(WEB3_FORMS_ENDPOINT, {
     method: "POST",
