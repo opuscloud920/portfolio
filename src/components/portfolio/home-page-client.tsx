@@ -99,8 +99,9 @@ const faqItems: readonly FaqItem[] = [
   {
     question: "How can we contact you?",
     answer:
-      "You can contact me directly by email at contact@muhammadfiaz.com or connect on LinkedIn for project and collaboration discussions.",
-    ctaHref: "mailto:contact@muhammadfiaz.com",
+      "You can contact me directly by email at contact@tawhid.com or connect on LinkedIn for project and collaboration discussions.",
+    // ctaHref: "mailto:contact@tawhid.com",
+    ctaHref: "#",
     ctaLabel: "Email Now",
   },
   {
@@ -213,7 +214,7 @@ export function HomePageClient({
                   asChild
                   className="w-full border-4 border-black px-4 py-2 text-sm font-black uppercase tracking-wide shadow-retro retro-press sm:w-auto sm:px-6 sm:py-3 sm:text-base"
                 >
-                  <Link href="mailto:contact@muhammadfiaz.com">Contact Me</Link>
+                  {/* <Link href="mailto:contact@tawhid.com">Contact Me</Link> */}
                 </Button>
                 <Button
                   variant="secondary"
@@ -473,7 +474,7 @@ export function HomePageClient({
             className="w-full border-4 border-black shadow-retro-sm sm:w-auto uppercase"
           >
             <Link
-              href="https://hackatime.hackclub.com/@muhammadfiaz"
+              href="https://hackatime.hackclub.com/@tawhid"
               target="_blank"
               rel="noreferrer noopener"
             >

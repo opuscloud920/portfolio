@@ -140,7 +140,8 @@ export function AboutPageClient({ timelineItems }: AboutPageClientProps) {
                 variant="secondary"
                 className="w-full border-4 border-black shadow-retro-sm sm:w-auto uppercase"
               >
-                <Link href="mailto:contact@muhammadfiaz.com">
+                {/* <Link href="mailto:contact@tawhid.com"> */}
+                <Link href="#">
                   Business Inquiries
                 </Link>
               </Button>

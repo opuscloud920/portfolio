@@ -29,7 +29,7 @@ export default function TermsOfServicePage() {
   return (
     <PolicyPageClient
       pageTitle="Terms of Service"
-      intro="These Terms of Service govern access to muhammadfiaz.com and all consulting, engineering, automation, and product delivery services provided by Tawhid Shaikh."
+      intro="These Terms of Service govern access to tawhid.com and all consulting, engineering, automation, and product delivery services provided by Tawhid Shaikh."
       sections={[
         {
           title: "Service Scope",
@@ -83,7 +83,7 @@ export default function TermsOfServicePage() {
         {
           title: "Contact and Governing Terms",
           content: [
-            "Questions regarding these terms can be sent to contact@muhammadfiaz.com.",
+            "Questions regarding these terms can be sent to contact@tawhid.com.",
             "These terms are interpreted under applicable laws and may be updated periodically to reflect service and legal changes.",
             "Continued use of this website or services after updates constitutes acceptance of revised terms.",
           ],

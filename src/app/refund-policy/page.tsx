@@ -29,7 +29,7 @@ export default function RefundPolicyPage() {
   return (
     <PolicyPageClient
       pageTitle="Refund Policy"
-      intro="This Refund Policy applies to services delivered by Tawhid Shaikh through muhammadfiaz.com and direct client agreements."
+      intro="This Refund Policy applies to services delivered by Tawhid Shaikh through tawhid.com and direct client agreements."
       sections={[
         {
           title: "General Policy",
@@ -55,7 +55,7 @@ export default function RefundPolicyPage() {
         {
           title: "Disputes and Review",
           content: [
-            "Refund requests must be sent in writing to contact@muhammadfiaz.com with invoice details and a clear reason.",
+            "Refund requests must be sent in writing to contact@tawhid.com with invoice details and a clear reason.",
             "Any approved exception is reviewed against payment records, communication history, and project scope.",
           ],
         },

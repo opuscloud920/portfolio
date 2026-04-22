@@ -1,4 +1,4 @@
-const DEFAULT_SITE_URL = "https://muhammadfiaz.com";
+const DEFAULT_SITE_URL = "https://tawhid.com";
 
 function normalizeSiteUrl(rawUrl: string): string {
   const normalized = rawUrl.startsWith("http") ? rawUrl : `https://${rawUrl}`;
@@ -21,14 +21,14 @@ export const siteUrl = normalizeSiteUrl(
 export const siteHost = new URL(`${siteUrl}/`).host;
 
 export const fiazDevUrl = "https://fiaz.dev";
-export const linkHubUrl = "https://links.muhammadfiaz.com";
-export const githubUrl = "https://github.com/muhammad-fiaz";
+export const linkHubUrl = "https://links.tawhid.com";
+export const githubUrl = "https://github.com/tawhidshaikh";
 export const githubSnakeGraphUrl =
   "https://raw.githubusercontent.com/muhammad-fiaz/muhammad-fiaz/output/github-contribution-grid-snake.svg";
-export const linkedinUrl = "https://www.linkedin.com/in/muhammad-fiaz-";
-export const xUrl = "https://x.com/muhammadfiaz_";
+export const linkedinUrl = "https://www.linkedin.com/in/tawhidshaikh";
+export const xUrl = "https://x.com/tawhid_";
 export const hackatimeUrl =
   "https://heatmap.shymike.dev/?id=30609&timezone=UTC";
-export const sponsorUrl = "https://github.com/sponsors/muhammad-fiaz/";
-export const donationUrl = "https://pay.muhammadfiaz.com/";
+export const sponsorUrl = "https://github.com/sponsors/tawhidshaikh/";
+export const donationUrl = "https://pay.tawhid.com/";
 export const ogImageUrl = `${siteUrl}/opengraph-image`;

@@ -86,7 +86,7 @@ export const metadata: Metadata = {
   },
   keywords: [
     "Tawhid Shaikh",
-    "muhammadfiaz.com",
+    "tawhid.com",
     "Full Stack Developer",
     "Next.js developer",
     "TypeScript developer",
@@ -133,7 +133,7 @@ export const metadata: Metadata = {
     description:
       "Founder, Entrepreneur, Full Stack Developer, Freelancer and Full-Time Open-Sourcerer.",
     images: [ogImageUrl],
-    creator: "@muhammadfiaz_",
+    creator: "@tawhid",
   },
 };
 

@@ -147,7 +147,10 @@ export function ContactPageClient() {
                 asChild
                 className="w-full border-4 border-black shadow-retro-sm sm:w-auto uppercase"
               >
-                <Link href="mailto:contact@muhammadfiaz.com">Email Now</Link>
+                {/* <Link href="mailto:contact@tawhid.com"> */}
+                <Link href="#">
+                Email Now
+                </Link>
               </Button>
             </Card.Content>
           </Card>

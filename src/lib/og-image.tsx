@@ -113,7 +113,7 @@ export function buildOgImage({
             fontWeight: 800,
           }}
         >
-          muhammadfiaz.com
+          tawhid.com
         </div>
       </div>
     </div>,

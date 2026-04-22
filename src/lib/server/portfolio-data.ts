@@ -9,9 +9,9 @@ import type {
 const DEFAULT_GITHUB_USER =
   process.env.GITHUB_USER ??
   process.env.NEXT_PUBLIC_GITHUB_USER ??
-  "muhammad-fiaz";
-const DEVTO_USER = "muhammadfiaz";
-const HASHNODE_HOST = "muhammadfiaz.hashnode.dev";
+  "tawhidshaikh";
+const DEVTO_USER = "tawhid";
+const HASHNODE_HOST = "tawhid.hashnode.dev";
 const GITHUB_CACHE_REVALIDATE_SECONDS = 60 * 60 * 12;
 
 function resolveGithubUser(user?: string): string {

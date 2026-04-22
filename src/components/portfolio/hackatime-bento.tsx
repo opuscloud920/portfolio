@@ -195,7 +195,7 @@ export function HackatimeBento({ stats }: { stats: HackatimePayload | null }) {
         </Link>
         <Button asChild className="mt-4 w-full border-4 border-black uppercase">
           <Link
-            href="https://hackatime.hackclub.com/@muhammadfiaz"
+            href="https://hackatime.hackclub.com/@tawhid"
             target="_blank"
             rel="noreferrer noopener"
           >

@@ -6,12 +6,12 @@ export interface LinkItem {
 
 export const links: LinkItem[] = [
   {
-    href: "https://github.com/muhammad-fiaz",
+    href: "https://github.com/tawhidshaikh",
     name: "GitHub",
     description: "Open source projects and contributions",
   },
   {
-    href: "https://www.linkedin.com/in/muhammad-fiaz-",
+    href: "https://www.linkedin.com/in/tawhidshaikh",
     name: "LinkedIn",
     description: "Connect with me professionally",
   },
@@ -21,22 +21,23 @@ export const links: LinkItem[] = [
     description: "My Hack Club coding streak and activity heatmap",
   },
   {
-    href: "https://muhammadfiaz.com",
+    href: "https://tawhid.com",
     name: "Portfolio",
     description: "Visit my main website",
   },
   {
-    href: "https://twitter.com/muhammadfiaz_",
+    href: "https://twitter.com/tawhid",
     name: "Twitter (X)",
     description: "Follow me for updates",
   },
   {
-    href: "https://dribbble.com/muhammadfiaz",
+    href: "https://dribbble.com/tawhid",
     name: "Dribbble",
     description: "My design work and shots",
   },
   {
-    href: "mailto:contact@muhammadfiaz.com",
+    // href: "mailto:contact@tawhid.com",
+    href: "#",
     name: "Contact Me",
     description: "Get in touch via email",
   },
@@ -51,7 +52,7 @@ export const links: LinkItem[] = [
     description: "AI tools, resources, and developer updates",
   },
   {
-    href: "https://app.daily.dev/muhammadfiaz",
+    href: "https://app.daily.dev/tawhid",
     name: "daily.dev Profile",
     description: "My daily.dev developer profile",
   },
