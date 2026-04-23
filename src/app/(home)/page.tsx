@@ -4,7 +4,7 @@ import {
   getBlogPosts,
   getGithubOverview,
   getGithubRepos,
-  getHackatimeStats,
+  // getHackatimeStats,
 } from "@/lib/server/portfolio-data";
 import {
   donationUrl,
@@ -16,7 +16,7 @@ import {
   ogImageUrl,
   siteUrl,
   sponsorUrl,
-  xUrl,
+  // xUrl,
 } from "@/lib/site-config";
 
 export const metadata: Metadata = {
@@ -64,11 +64,12 @@ function serializeJsonLd(value: unknown): string {
 }
 
 export default async function HomePage() {
-  const [initialRepos, initialPosts, initialHackatime, initialGitHubOverview] =
+  // const [initialRepos, initialPosts, initialHackatime, initialGitHubOverview] =
+  const [initialRepos, initialPosts, initialGitHubOverview] =
     await Promise.all([
       getGithubRepos(),
       getBlogPosts(),
-      getHackatimeStats(),
+      // getHackatimeStats(),
       getGithubOverview(),
     ]);
 
@@ -85,7 +86,7 @@ export default async function HomePage() {
       sameAs: [
         githubUrl,
         linkedinUrl,
-        xUrl,
+        // xUrl,
         hackatimeUrl,
         linkHubUrl,
         fiazDevUrl,
@@ -145,7 +146,7 @@ export default async function HomePage() {
       <HomePageClient
         initialRepos={initialRepos}
         initialPosts={initialPosts}
-        initialHackatime={initialHackatime}
+        // initialHackatime={initialHackatime}
         initialGitHubOverview={initialGitHubOverview}
       />
     </>

@@ -149,7 +149,7 @@ export function GithubOverviewBento({
           </div>
         </BentoCard>
 
-        <BentoCard
+        {/* <BentoCard
           data-gh-card
           className="sm:col-span-2 lg:col-span-4 self-start"
         >
@@ -178,7 +178,7 @@ export function GithubOverviewBento({
               View Full GitHub Profile
             </Link>
           </Button>
-        </BentoCard>
+        </BentoCard> */}
 
         <BentoCard
           data-gh-card

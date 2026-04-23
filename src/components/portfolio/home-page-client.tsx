@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BlogGrid } from "@/components/portfolio/blog-grid";
 import { GithubOverviewBento } from "@/components/portfolio/github-overview-bento";
-import { HackatimeBento } from "@/components/portfolio/hackatime-bento";
+// import { HackatimeBento } from "@/components/portfolio/hackatime-bento";
 import { HeroFloatingBadges } from "@/components/portfolio/hero-floating-badges";
 import { HomeDeliveryProcess } from "@/components/portfolio/home-delivery-process";
 import { HomeEngagementModel } from "@/components/portfolio/home-engagement-model";
@@ -23,7 +23,7 @@ import type {
   BlogPost,
   GitHubOverviewPayload,
   GithubRepo,
-  HackatimePayload,
+  // HackatimePayload,
 } from "@/lib/portfolio-types";
 import {
   donationUrl,
@@ -114,17 +114,17 @@ const faqItems: readonly FaqItem[] = [
 type HomePageClientProps = {
   initialRepos?: GithubRepo[];
   initialPosts?: BlogPost[];
-  initialHackatime?: HackatimePayload | null;
+  // initialHackatime?: HackatimePayload | null;
   initialGitHubOverview?: GitHubOverviewPayload | null;
 };
 
 export function HomePageClient({
   initialRepos,
   initialPosts,
-  initialHackatime,
+  // initialHackatime,
   initialGitHubOverview,
 }: HomePageClientProps) {
-  const hackatime = initialHackatime ?? null;
+  // const hackatime = initialHackatime ?? null;
   const githubOverview = initialGitHubOverview ?? null;
   const focus = useHomeStore((state) => state.focus);
   const setFocus = useHomeStore((state) => state.setFocus);
@@ -252,7 +252,7 @@ export function HomePageClient({
                 >
                   <Github className="h-4 w-4" />
                 </Link>
-                <Link
+                {/* <Link
                   href={xUrl}
                   target="_blank"
                   rel="noreferrer noopener"
@@ -260,7 +260,7 @@ export function HomePageClient({
                   aria-label="X profile"
                 >
                   <Twitter className="h-4 w-4" />
-                </Link>
+                </Link> */}
                 <Link
                   href={linkedinUrl}
                   target="_blank"
@@ -463,31 +463,33 @@ export function HomePageClient({
         <GithubOverviewBento stats={githubOverview ?? null} />
       </section>
 
-      <section className="space-y-4" data-home-reveal>
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-          <h2 className="font-display text-3xl uppercase sm:text-4xl">
-            Hackatime Insights
-          </h2>
-          <Button
-            asChild
-            variant="secondary"
-            className="w-full border-4 border-black shadow-retro-sm sm:w-auto uppercase"
-          >
-            <Link
-              href="https://hackatime.hackclub.com/@tawhid"
-              target="_blank"
-              rel="noreferrer noopener"
+      {/* This is a comment in TSX 
+        <section className="space-y-4" data-home-reveal>
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <h2 className="font-display text-3xl uppercase sm:text-4xl">
+              Hackatime Insights
+            </h2>
+            <Button
+              asChild
+              variant="secondary"
+              className="w-full border-4 border-black shadow-retro-sm sm:w-auto uppercase"
             >
-              View HackClub Profile
-            </Link>
-          </Button>
-        </div>
-        <p className="font-bold uppercase text-muted-foreground">
-          Live coding insights from Hack Club for the last 7 days and total
-          tracked development time.
-        </p>
-        <HackatimeBento stats={hackatime ?? null} />
-      </section>
+              <Link
+                href="https://hackatime.hackclub.com/@tawhid"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                View HackClub Profile
+              </Link>
+            </Button>
+          </div>
+          <p className="font-bold uppercase text-muted-foreground">
+            Live coding insights from Hack Club for the last 7 days and total
+            tracked development time.
+          </p>
+          <HackatimeBento stats={hackatime ?? null} />
+        </section>
+      */} 
 
       <section className="space-y-4" data-home-reveal>
         <h2 className="font-display text-3xl uppercase sm:text-4xl">
@@ -591,13 +593,13 @@ export function HomePageClient({
             variant="secondary"
             className="w-full border-4 border-black shadow-retro-sm sm:w-auto uppercase"
           >
-            <Link
+            {/* <Link
               href={linkHubUrl}
               target="_blank"
               rel="noreferrer noopener"
             >
               Open Link Hub
-            </Link>
+            </Link> */}
           </Button>
         </div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">

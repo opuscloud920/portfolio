@@ -82,7 +82,7 @@ export function AboutPageClient({ timelineItems }: AboutPageClientProps) {
               >
                 <Github className="h-4 w-4" />
               </Link>
-              <Link
+              {/* <Link
                 href={xUrl}
                 target="_blank"
                 rel="noreferrer noopener"
@@ -90,7 +90,7 @@ export function AboutPageClient({ timelineItems }: AboutPageClientProps) {
                 aria-label="X profile"
               >
                 <Twitter className="h-4 w-4" />
-              </Link>
+              </Link> */}
               <Link
                 href={linkedinUrl}
                 target="_blank"

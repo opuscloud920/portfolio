@@ -15,50 +15,50 @@ export const links: LinkItem[] = [
     name: "LinkedIn",
     description: "Connect with me professionally",
   },
+  // {
+  //   href: "https://heatmap.shymike.dev/?id=30609&timezone=UTC",
+  //   name: "Hackatime",
+  //   description: "My Hack Club coding streak and activity heatmap",
+  // },
   {
-    href: "https://heatmap.shymike.dev/?id=30609&timezone=UTC",
-    name: "Hackatime",
-    description: "My Hack Club coding streak and activity heatmap",
-  },
-  {
-    href: "https://tawhid.com",
+    href: "https://tawhidportfolio.vercel.app",
     name: "Portfolio",
     description: "Visit my main website",
   },
-  {
-    href: "https://twitter.com/tawhid",
-    name: "Twitter (X)",
-    description: "Follow me for updates",
-  },
-  {
-    href: "https://dribbble.com/tawhid",
-    name: "Dribbble",
-    description: "My design work and shots",
-  },
+  // {
+  //   href: "https://twitter.com/tawhid",
+  //   name: "Twitter (X)",
+  //   description: "Follow me for updates",
+  // },
+  // {
+  //   href: "https://dribbble.com/tawhid",
+  //   name: "Dribbble",
+  //   description: "My design work and shots",
+  // },
   {
     // href: "mailto:contact@tawhid.com",
     href: "#",
     name: "Contact Me",
     description: "Get in touch via email",
   },
-  {
-    href: "https://orcid.org/0009-0001-5935-7878",
-    name: "ORCID",
-    description: "My ORCID researcher profile",
-  },
-  {
-    href: "https://dly.to/LQm0vGkFCsi",
-    name: "daily.dev Community",
-    description: "AI tools, resources, and developer updates",
-  },
-  {
-    href: "https://app.daily.dev/tawhid",
-    name: "daily.dev Profile",
-    description: "My daily.dev developer profile",
-  },
-  {
-    href: "https://fiaz.dev",
-    name: "Fiaz Technologies",
-    description: "Developer-first next-generation solutions",
-  },
+  // {
+  //   href: "https://orcid.org/0009-0001-5935-7878",
+  //   name: "ORCID",
+  //   description: "My ORCID researcher profile",
+  // },
+  // {
+  //   href: "https://dly.to/LQm0vGkFCsi",
+  //   name: "daily.dev Community",
+  //   description: "AI tools, resources, and developer updates",
+  // },
+  // {
+  //   href: "https://app.daily.dev/tawhid",
+  //   name: "daily.dev Profile",
+  //   description: "My daily.dev developer profile",
+  // },
+  // {
+  //   href: "https://fiaz.dev",
+  //   name: "Fiaz Technologies",
+  //   description: "Developer-first next-generation solutions",
+  // },
 ];

@@ -87,7 +87,7 @@ export function Footer() {
             >
               <Github className="h-4 w-4" />
             </Link>
-            <Link
+            {/* <Link
               href={xUrl}
               className="retro-social-icon"
               target="_blank"
@@ -96,7 +96,7 @@ export function Footer() {
               data-footer-social
             >
               <Twitter className="h-4 w-4" />
-            </Link>
+            </Link> */}
             <Link
               href={linkedinUrl}
               className="retro-social-icon"
